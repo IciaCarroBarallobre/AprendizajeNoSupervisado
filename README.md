@@ -40,3 +40,41 @@ El conjunto de datos contiene unos 60000 perfiles de usuario, incluyendo informa
 
 Puedes encontrar el conjunto de datos en un fichero comprimido en el siguiente [enlace.](https://drive.upm.es/index.php/s/LkFtKeCdq9ElQZX)
 
+
+## Decidisiones tomadas
+
+Separar el dataset por las columnas obligatorias:
+- sex: sexo
+- orientation: orientación sexual
+
+Borramos las finales en caso de "homosexual_f" o "homosexual_m": sex y orientation
+Borramos las finales en caso de "heterosexual":  orientation
+
+
+Eliminar las que nos parecen claramente sesgatorias o irrelevante:
+- ethnicity: etnia
+- income: ingresos anuales (en dólares americanos $)
+- body_type: tipo de cuerpo
+- sign: signo del zodiaco
+
+Las mas importantes:
+- age: edad
+- status: estado de la relación 
+- location: lugar de residencia (la pasaremos a coordenadas) , longitud y latitud
+- height: altura
+
+Las demas:
+- last_online: fecha de la última conexión (Descartar las anteriores a un mes y borrar fila)
+- diet: dieta seguida por el usuario (TODO)
+- drinks: ¿bebedor? (Hemos reducido las posibilidades a varias y aplicado one hot encoder- nos falta tratamiento de nulos)
+- smokes: ¿fumador? (Hemos reducido las posibilidades a si o no - nos falta tratamiento de nulos)
+- drugs: ¿consumidor de drogas? (Hemos reducido las posibilidades a si o no- nos falta tratamiento de nulos)
+- education: máximo nivel educativo alcanzado (TODO)
+- job: empleo/industria (TODO)
+- offspring: preferencia con respecto a los hijos (TODO)
+- pets: preferencia con respecto a las mascotas (TODO)
+- religion: preferencias religiosas (TODO)
+- speaks: idiomas  (Hemos hecho una columna por idioma y su % de conocimiento, si no ponen nada 0.5)
+    - Todos hablan ingles asi que la hemos dejado como menos importante
+    - Tiene valores atipicos como c++
+- essay0 - essay9: Aplicar algoritmo LDA para sacar los topics mas importantes (TODO)
