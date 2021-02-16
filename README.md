@@ -7,6 +7,7 @@ Disponemos de un conjunto de datos con información sobre los perfiles de la web
 - [El conjunto de datos](#el-conjunto-de-datos).
 - [Decisiones Tomadas](#decidisiones-tomadas).
 
+Puedes encontrar el conjunto de datos en un fichero comprimido en el siguiente [enlace.](https://drive.upm.es/index.php/s/LkFtKeCdq9ElQZX)
 
 
 ### El conjunto de datos
@@ -45,7 +46,6 @@ El conjunto de datos contiene unos 60000 perfiles de usuario, incluyendo informa
    - Lo que realmente estoy buscando / Citas
    - Puedes encontrar el conjunto de datos en un fichero comprimido en el siguiente enlace.
 
-Puedes encontrar el conjunto de datos en un fichero comprimido en el siguiente [enlace.](https://drive.upm.es/index.php/s/LkFtKeCdq9ElQZX)
 
 
 ### Decidisiones tomadas
