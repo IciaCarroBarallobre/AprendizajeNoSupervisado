@@ -2,7 +2,14 @@
 
 Disponemos de un conjunto de datos con información sobre los perfiles de la web de contactos [OkCupid](https://www.okcupid.com/). El problema de aprendizaje no supervisado a resolver consiste en determinar qué perfiles de la red social son compatibles entre sí; a fin de cuentas, se trata de una web de contactos.
 
-## El conjunto de datos
+## Tabla de contenido
+
+- [El conjunto de datos](#el-conjunto-de-datos).
+- [Decisiones Tomadas](#decidisiones-tomadas).
+
+
+
+### El conjunto de datos
 El conjunto de datos contiene unos 60000 perfiles de usuario, incluyendo información sobre 31 características:
 
 - age: edad
@@ -41,7 +48,7 @@ El conjunto de datos contiene unos 60000 perfiles de usuario, incluyendo informa
 Puedes encontrar el conjunto de datos en un fichero comprimido en el siguiente [enlace.](https://drive.upm.es/index.php/s/LkFtKeCdq9ElQZX)
 
 
-## Decidisiones tomadas
+### Decidisiones tomadas
 
 Separar el dataset por las columnas obligatorias:
 - sex: sexo
