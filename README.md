@@ -114,4 +114,4 @@ Eliminar las que nos parecen claramente sesgatorias o irrelevante:
 
 ### Como tratar nulos
 
-En la mayoría de las columnas haremos la moda (TODO)
+En la mayoría de las columnas haremos la moda, el casos de muy pocos nulos, dropearemos las filas. En casos como la religion, consideraremos que si no ha puesto ninguna, no pertenece a ninguna.
