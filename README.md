@@ -114,4 +114,5 @@ Eliminar las que nos parecen claramente sesgatorias o irrelevante:
 
 ### Como tratar nulos
 
-En la mayoría de las columnas haremos la moda, el casos de muy pocos nulos, dropearemos las filas. En casos como la religion, consideraremos que si no ha puesto ninguna, no pertenece a ninguna.
+En la mayoría de las columnas haremos la moda, el casos de muy pocos nulos, dropearemos las filas (es el caso de status y speak). 
+En casos como la religion, consideraremos que si no ha puesto ninguna, no pertenece a ninguna (ni siquiera a agnostico o ateo).
