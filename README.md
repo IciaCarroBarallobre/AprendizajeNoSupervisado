@@ -58,6 +58,8 @@ Separar el dataset por las columnas **obligatorias**:
 Borramos las finales en caso de "homosexual_f" o "homosexual_m": sex y orientation
 Borramos las finales en caso de "heterosexual":  orientation, en sex realizamos un OneHotEncoder
 
+[Los datasets resultantes](https://drive.google.com/drive/folders/1LtThNckGpizyT0Co1qTsR4kHP6ikEZUE?usp=sharing)
+
 ### Columnas sesgatorias
 
 Eliminar las que nos parecen claramente sesgatorias o irrelevante:
