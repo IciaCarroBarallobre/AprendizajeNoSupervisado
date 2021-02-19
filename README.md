@@ -55,4 +55,4 @@ Separar el dataset por las columnas **obligatorias**:
 - sex: sexo
 - orientation: orientación sexual
 
-El resto de decisiones se explican en [el archivo pdf](./Aprendizaje no supervisado.pdf)
+El resto de decisiones se explican en [el pdf](./Aprendizaje_no_supervisado.pdf)
